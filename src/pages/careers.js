@@ -1,20 +1,27 @@
-import { Grid } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 import React from "react";
 
 function careers() {
   return (
     <Grid
-      className="careers"
+      className="About"
       sx={{
         marginTop: "80px",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
         flexDirection: "column",
-        backgroundColor: "red",
+        backgroundColor: "#e1f7f7",
+        padding: "4%",
+        minHeight: { xl: "90vh", lg: "100vh", md: "100vh" },
       }}
     >
-      <p>This is careers</p>
+      <Typography style={{ color: "#024481" }} variant="h2">
+        Careers
+      </Typography>
+      <h3 style={{ fontSize: "20px", marginTop: 10 }}>
+        Strong work ethic and work-life balance,
+      </h3>
     </Grid>
   );
 }

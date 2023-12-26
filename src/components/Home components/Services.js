@@ -34,7 +34,7 @@ const Services = () => {
     <div
       className="features"
       style={{
-        backgroundColor: "yellow",
+        backgroundColor: "#d8ebf9",
         backgroundRepeat: "no-repeat",
         minHeight: "90vh",
       }}

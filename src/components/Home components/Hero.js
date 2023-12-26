@@ -19,7 +19,9 @@ const Hero = () => {
     >
       <h1 style={{ fontSize: "80px" }}>
         Hi! We are
-        <span style={{ color: "#4c90ca", marginBottom: "0" }}>
+        <span
+          style={{ color: "#4c90ca", marginBottom: "0", paddingLeft: "1rem" }}
+        >
           INNOV8 FUSION
         </span>
       </h1>

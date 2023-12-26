@@ -10,17 +10,19 @@ function ComOverview() {
         justifyContent: "center",
         alignItems: "center",
         flexDirection: "column",
-        backgroundColor: "red",
         minHeight: { xl: "80vh", lg: "80vh", md: "80vh" },
       }}
     >
-      <h1 style={{ color: "#024481" }}>Who we are?</h1>
+      <h1 style={{ color: "#024481", padding: "2%", fontSize: "50px" }}>
+        Company Overview
+      </h1>
       <h3
         style={{
           paddingLeft: "10%",
           paddingRight: "10%",
           textIndent: "10em",
           textAlign: "center",
+          padding: "2%",
         }}
       >
         Since our establishment in 2023, we've been at the forefront of
@@ -35,6 +37,7 @@ function ComOverview() {
           paddingRight: "10%",
           textIndent: "10em",
           textAlign: "center",
+          padding: "2%",
         }}
       >
         With an unwavering commitment to innovation, we consistently push
@@ -50,6 +53,7 @@ function ComOverview() {
           paddingRight: "10%",
           textIndent: "10em",
           textAlign: "center",
+          padding: "2%",
         }}
       >
         At the heart of our mission lies a dedication to empowering businesses,
