@@ -21,33 +21,33 @@ function OurTeam() {
           <Avatar
             alt="Remy Sharp"
             src="/static/images/avatar/1.jpg"
-            sx={{ height: "250px", width: "250px" }}
+            sx={{ height: "200px", width: "200px" }}
           />
-          <h2 style={{ paddingLeft: "60px" }}>Mr. Sarath</h2>
+          <h2 style={{ paddingLeft: "40px" }}>Mr. Sarath</h2>
         </div>
         <div>
           <Avatar
             alt="Remy Sharp"
             src="/static/images/avatar/1.jpg"
-            sx={{ height: "250px", width: "250px" }}
+            sx={{ height: "200px", width: "200px" }}
           />
-          <h2 style={{ paddingLeft: "60px" }}>Mr. Sarath</h2>
+          <h2 style={{ paddingLeft: "40px" }}>Mr. Sarath</h2>
         </div>
         <div>
           <Avatar
             alt="Remy Sharp"
             src="/static/images/avatar/1.jpg"
-            sx={{ height: "250px", width: "250px" }}
+            sx={{ height: "200px", width: "200px" }}
           />
-          <h2 style={{ paddingLeft: "60px" }}>Mr. Sarath</h2>
+          <h2 style={{ paddingLeft: "40px" }}>Mr. Sarath</h2>
         </div>
         <div>
           <Avatar
             alt="Travis Howard"
             src="/static/images/avatar/2.jpg"
-            sx={{ height: "250px", width: "250px" }}
+            sx={{ height: "200px", width: "200px" }}
           />
-          <h2 style={{ paddingLeft: "60px" }}>Mr. Sarath</h2>
+          <h2 style={{ paddingLeft: "40px" }}>Mr. Sarath</h2>
         </div>
       </Stack>
     </Grid>

@@ -7,10 +7,10 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --black-color: #ffffff;
-  --black-color-light: #ffffff;
+  --black-color: #150452;
+  --black-color-light: #5942ab;
   --black-color-lighten: hsl(220, 20%, 18%);
-  --white-color: #150452;
+  --white-color: #ffffff;
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -62,12 +62,11 @@ a {
 }
 
 /*=============== HEADER ===============*/
+/* position: fixed; */
 .header {
-  position: fixed;
   top: 0;
   left: 0;
-  margin-left: 5%;
-  margin-right: 5%;
+  position: relative;
   width: 100%;
   background-color: var(--black-color);
   z-index: var(--z-fixed);
@@ -95,6 +94,7 @@ a {
   display: inline-flex;
   align-items: center;
   column-gap: 0.25rem;
+
   font-weight: var(--font-semi-bold);
   /* Color highlighting when pressed on mobile devices */
   /*-webkit-tap-highlight-color: transparent;*/

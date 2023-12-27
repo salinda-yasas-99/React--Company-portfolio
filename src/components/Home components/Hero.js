@@ -6,7 +6,6 @@ const Hero = () => {
     <Grid
       className="HeroPage"
       sx={{
-        marginTop: "80px",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",

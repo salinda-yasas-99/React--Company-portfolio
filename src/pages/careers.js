@@ -20,7 +20,7 @@ function careers() {
         Careers
       </Typography>
       <h3 style={{ fontSize: "20px", marginTop: 10 }}>
-        Strong work ethic and work-life balance,
+        Strong work ethic and work-life balance
       </h3>
     </Grid>
   );

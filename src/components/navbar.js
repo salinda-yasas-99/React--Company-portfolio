@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "../../src/assets/css/styles.css";
-import { HashLink } from "react-router-hash-link";
+import logo from "../assets/images/s Logo.png";
 
 function NavBar() {
   useEffect(() => {
@@ -8,15 +8,18 @@ function NavBar() {
       const toggle = document.getElementById(toggleId);
       const nav = document.getElementById(navId);
 
-      if (toggle && nav) {
-        const handleClick = () => {
+      const handleClick = () => {
+        if (nav) {
           nav.classList.toggle("show-menu");
+        }
+        if (toggle) {
           toggle.classList.toggle("show-icon");
-        };
+        }
+      };
 
+      if (toggle && nav) {
         toggle.addEventListener("click", handleClick);
 
-        // Clean up the event listener when the component unmounts
         return () => {
           toggle.removeEventListener("click", handleClick);
         };
@@ -32,7 +35,8 @@ function NavBar() {
         <nav className="nav container">
           <div className="nav__data">
             <a href="/" className="nav__logo">
-              <i className="ri-planet-line"></i> INNOV8 FUSION
+              <img src={logo} style={{ width: "140px", height: "50px" }}></img>
+              {/* <i className="ri-planet-line"></i> INNOV8 FUSION */}
             </a>
 
             <div className="nav__toggle" id="nav-toggle">
