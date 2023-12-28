@@ -14,6 +14,7 @@ const Hero = () => {
         width: "auto",
         height: "auto",
         minHeight: { xl: "90vh", lg: "100vh", md: "100vh" },
+        marginTop: "5%",
       }}
     >
       <h1 style={{ fontSize: "80px" }}>

@@ -11,7 +11,6 @@ function About() {
     <Grid
       className="About"
       sx={{
-        marginTop: "80px",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -19,6 +18,7 @@ function About() {
         backgroundColor: "#e1f7f7",
         padding: "4%",
         minHeight: { xl: "90vh", lg: "100vh", md: "100vh" },
+        marginTop: "5%",
       }}
     >
       <Typography style={{ color: "#024481" }} variant="h2">

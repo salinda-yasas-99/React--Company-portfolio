@@ -56,7 +56,7 @@ const Footer = () => {
             About us
           </Typography>
           <Typography style={{ color: "#ffffff" }} variant="h6">
-            We manage your consent
+            we innovate ideas
           </Typography>
           <ul
             className="social icons"
@@ -111,11 +111,7 @@ const Footer = () => {
               </Typography>
             </Button>
           </HashLink>
-          <HashLink
-            smooth
-            to={"/#homeSection_3"}
-            style={{ textDecoration: "none" }}
-          >
+          <HashLink smooth to={"/About"} style={{ textDecoration: "none" }}>
             <Button variant={"text"}>
               <Typography variant={"h6"} style={{ color: "#ffffff" }}>
                 About Us
@@ -128,7 +124,7 @@ const Footer = () => {
         <Grid
           container
           direction="column"
-          justify={"center"}
+          justify={"center4"}
           alignItems={"center"}
           item
           lg={4}
@@ -136,7 +132,7 @@ const Footer = () => {
           sm={12}
           xs={12}
         >
-          <Typography variant={"h5"} style={{ color: "#ffffff" }}>
+          <Typography variant={"h6"} style={{ color: "#ffffff" }}>
             Contact with us
           </Typography>
           <Typography variant={"h6"} style={{ color: "#ffffff" }}>

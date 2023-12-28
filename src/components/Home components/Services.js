@@ -4,7 +4,6 @@ import features_2 from "../../assets/images/features-2.svg";
 import features_3 from "../../assets/images/features-3.svg";
 import features_4 from "../../assets/images/features-4.svg";
 import CardHome from "../Card";
-import { Padding } from "@mui/icons-material";
 
 const homeCards = [
   {

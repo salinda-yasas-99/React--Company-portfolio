@@ -1,9 +1,9 @@
 import { Grid } from "@mui/material";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { Autoplay, Pagination, Navigation, EffectCube } from "swiper/modules";
 
-import img1 from "../../assets/images/swiper_1.jpg";
+import img1 from "../../assets/images/swiper_5.jpg";
 import img2 from "../../assets/images/swiper_2.jpg";
 import img3 from "../../assets/images/swiper_3.jpg";
 import img4 from "../../assets/images/swiper_4.jpg";
@@ -11,6 +11,7 @@ import img4 from "../../assets/images/swiper_4.jpg";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
+import "swiper/css/effect-cube";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "../../assets/css/swiper.css";
@@ -32,16 +33,24 @@ function Swipe() {
     >
       <Swiper
         spaceBetween={30}
+        effect={"cube"}
+        speed={"2000"}
+        rewind={"true"}
+        grabCursor={"true"}
+        cubeEffect={{
+          shadow: true,
+          slideShadows: true,
+          shadowOffset: 20,
+          shadowScale: 0.94,
+        }}
         centeredSlides={true}
         autoplay={{
-          delay: 2500,
+          delay: 2000,
           disableOnInteraction: false,
         }}
-        pagination={{
-          clickable: true,
-        }}
+        pagination={true}
         navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
+        modules={[Autoplay, Pagination, Navigation, EffectCube]}
         className="mySwiper"
       >
         <SwiperSlide>
@@ -53,9 +62,9 @@ function Swipe() {
         <SwiperSlide>
           <img src={img3} />
         </SwiperSlide>
-        {/* <SwiperSlide>
+        <SwiperSlide>
           <img src={img1} />
-        </SwiperSlide> */}
+        </SwiperSlide>
       </Swiper>
     </Grid>
   );
