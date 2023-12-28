@@ -1,7 +1,7 @@
 import { Button, Grid, TextField } from "@mui/material";
 import React from "react";
 import contactImg from "../../assets/images/contactUs.svg";
-import { Height } from "@mui/icons-material";
+import NewSvgComponent from "./contactSVG";
 
 function ContactForm() {
   return (
@@ -30,11 +30,30 @@ function ContactForm() {
       </h3>
       <Grid
         container
-        direction={"row"}
+        direction={"row-reverse"}
         justifyContent="space-evenly"
         alignItems="center"
       >
         <Grid container xl={1} lg={1} md={1} sm={1} xs={1} />
+        <Grid
+          container
+          direction={"column"}
+          className="form-image"
+          xl={4}
+          lg={6}
+          md={12}
+          sm={12}
+          xs={12}
+        >
+          {/* <img
+            src={contactImg}
+            style={{ height: "auto", height: "auto", padding: "4%" }}
+          /> */}
+          {/* <SvgComponent></SvgComponent> */}
+          {/* <SvgComponent1></SvgComponent1> */}
+
+          <NewSvgComponent></NewSvgComponent>
+        </Grid>
         <Grid
           container
           direction={"column"}
@@ -79,21 +98,7 @@ function ContactForm() {
           />
           <Button variant="contained">Send Messege</Button>
         </Grid>
-        <Grid
-          container
-          direction={"column"}
-          className="form-image"
-          xl={4}
-          lg={6}
-          md={12}
-          sm={12}
-          xs={12}
-        >
-          <img
-            src={contactImg}
-            style={{ height: "auto", height: "auto", padding: "4%" }}
-          />
-        </Grid>
+
         <Grid container xl={1} lg={1} md={1} sm={1} xs={1} />
       </Grid>
     </Grid>
